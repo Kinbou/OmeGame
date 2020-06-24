@@ -44,7 +44,7 @@ app.use(logger("dev"));
 // app.use(cors(corsOptions));
 const whitelist = [
   "http://localhost:8080",
-  "http://ec2-54-167-103-17.compute-1.amazonaws.com",
+  "http://ec2-3-83-53-10.compute-1.amazonaws.com",
 ];
 app.use(
   cors({
